@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    /* adapt to viewport width with a max limit */
+    width: 90vw;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding : 20px;
+    font-size: 5rem;
+    text-align : left ;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+#keys{
+    display : grid ;
+    grid-template-columns : repeat(4, 1fr) ;
+    gap: 10px;
+    padding : 25px ;
+}
+
+button {
+    /* size based on grid cell so it can shrink on small screens */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size : 3rem;
+    font-weight: bold ;
+    cursor : pointer ;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+.opp{
+    background-color: hsl(35, 100%, 55%);
+}
+.opp:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+.opp:active {
+    background-color: hsl(35, 100%, 75%);
+}
+
+/* formatting buttons (XML/JSON/PHP) */
+.format{
+    background-color: hsl(200, 80%, 50%);
+    font-size: 1.5rem;
+}
+.format:hover {
+    background-color: hsl(200, 80%, 60%);
+}
+.format:active {
+    background-color: hsl(200, 80%, 70%);
+}
+
+@media (max-width: 600px) {
+    #display {
+        font-size: 3rem;
+    }
+    button {
+        font-size: 2rem;
+    }
+}
+
+#downloadLink a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: hsl(200,80%,60%);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+#downloadLink a:hover {
+    background-color: hsl(200,80%,50%);
+}
