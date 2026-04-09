@@ -1,0 +1,35 @@
+{
+    "filename": "history.json",
+    "lastUpdated": "2026-04-01T03:41:14.748Z",
+    "totalCalculations": 4,
+    "calculations": [
+        {
+            "id": 1775014874726,
+            "expression": "10*10",
+            "result": 100,
+            "timestamp": "01\/04\/2026, 11:41:14",
+            "date": "2026-04-01T03:41:14.746Z"
+        },
+        {
+            "id": 1775014850651,
+            "expression": "5*5",
+            "result": 25,
+            "timestamp": "4\/1\/2026, 11:40:50 AM",
+            "date": "2026-04-01T03:40:50.652Z"
+        },
+        {
+            "id": 1775014350235,
+            "expression": "-5+12",
+            "result": 7,
+            "timestamp": "4\/1\/2026, 11:32:30 AM",
+            "date": "2026-04-01T03:32:30.235Z"
+        },
+        {
+            "id": 1775014331565,
+            "expression": "4*12",
+            "result": 48,
+            "timestamp": "4\/1\/2026, 11:32:11 AM",
+            "date": "2026-04-01T03:32:11.584Z"
+        }
+    ]
+}
